@@ -93,7 +93,7 @@ Ejercicio bisiesto:
 Escriba un programa que pida un año y que escriba si es bisiesto o no.
 Se recuerda que los años bisiestos son múltiplos de 4, pero los múltiplos de 100 no lo son, aunque los múltiplos de 400 sí.*/
 
-
+/*
 function esBisiesto(año){
   if((año % 4 === 0 && año % 100 !== 0) || año % 400 === 0) {
     return true
@@ -103,5 +103,15 @@ function esBisiesto(año){
 }
 let año = parseInt(prompt("Introduzca año"))
 console.log(esBisiesto(año))
+*/
 
+/*calculateLength() counts the digits present in a number.
+Use a while loop to check whether the number is not equal to 0.
+Divide the number by 10 and increment the variable length by 1.
+Return length.
+Define and initialize variable num.
+Make a copy of num by storing the value of num in n.
+Using while loop calculates remainder rem repeatedly by dividing num with 10.
+Calculate the value of rem raised to power its position, i.e. remlen and store the computed value in a variable sum.
+Check whether sum is equal to number. If yes, then given number is Disarium number. Else, it is not a Disarium number.*/
 
